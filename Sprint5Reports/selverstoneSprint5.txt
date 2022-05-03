@@ -1,0 +1,15 @@
+>Reviewed over 1000 lines of code and created abilities for Gary M Unger as well as bug tested for Sarah and Loki and Starship
+	-Debugged Sarah and Loki functionality to spawn Loki and have him attack the opposing player
+		*Currently Slerp-ing, clips through the map, will need to fix in later versions
+		*Debugged the sandstorm ability, need to continue work on it for the ability to fully function
+	-Debugged Gary M Unger
+		*Enabled the spawning of officers with the 3bar ult, currently Slerp-ing, clipping through the map, will need to fix
+		 in later versions
+		+Added the body slam ability
+	-Debugged the Starhsip ults
+		*3bar ult now collides with the opposing player and pushes them back on collission, launching puck towards the opposing
+		 goal
+		*2bar ult now inverts Y direction accurately, feels much better to use
+	-Debugged the player jump allowing for them to jump with the puck, removed the multi-jump bug
+	-Debugged the "dropping the ball" issue, player now throws the puck forward even if no target vector is given
+Held meeting with my programmers to discuss code and offer assistance

@@ -1,0 +1,16 @@
+Sprint	GOALS			DUE Date	Notes/Comments
+1	Theme, Art Style	7 Feb		Art style should be established as well as overall theme narrowed down
+2	Music, Character(s)	14 Feb		Music should be on path to establish general mood. 1st Character needs to be designed or near done
+3	Lvl1			21 Feb		Want to see a prototype of lvl 1 even if it's just design docs
+4	Character 1 in-game	28 Feb		Want to see C1 in the game with any accompaning moves (model & textures can wait)
+5	Character Model(s)	7 Mar		Expect C1 to be modeled, textures and animation can wait
+6	Title			14 Mar		SPRING BREAK, Prof said we can have a bonus (optional) sprint this week
+7	Prototype/Demo		21 Mar		C1 & C2 should be done by the time of the Prototype/demo
+8	Prototype/Demo		28 Mar	
+9	Prototype/Demo		4 Apr	
+10	TBD			11 Apr	
+11	TBD			18 Apr	
+12	Character 3&4		25 Apr		If we have time for them C3&4 should be nearly finished by now
+13	TBD			2 May	
+14	Final Build		9 May		Really want a finished build by this week so we can focus on itch.io deployment and polish
+15	Polish			16 May		Final Build Submission inculding deployment due @1:30pm

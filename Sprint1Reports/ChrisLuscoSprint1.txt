@@ -1,0 +1,1 @@
+Just worked on general game mechanics with Cavin and Thomas.  Personally worked on and fleshed out a weather system based off of character abilities.

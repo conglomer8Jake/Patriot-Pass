@@ -1,0 +1,1 @@
+This week I was assigned to create an asset list for the George Mason statue level, including items that needed to be created as well as functions that needed scripting. I completed this task by Thursday with no complications.

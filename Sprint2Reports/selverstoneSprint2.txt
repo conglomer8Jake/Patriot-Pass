@@ -1,0 +1,10 @@
+>Reviewed 737 lines of code from my programmers.
+	-Created basic abilities for all characters:
+		-Throw ability takes in an initVector and targetVector to add them to an addedVector, throws disk in addedVector direction
+		-Parry ability functions similarly to throw, is quicker
+		-Dropshot ability throws the puck "up" in an arc and in a set distance
+	-Created a function to reset all variables, vectors, and booleans when an ability is used
+	-Fixed a bug where the initial velocity of the puck would override any direction it would be thrown in
+	-Created movement and ability cases for each player as well as each player within the character
+	-Created float to handle length of time the throw button is pressed, enables the programming of full suite of abilities
+>Held meetings with most of my programmers to review their work and progress, some couldn't come to scheduled meeting and we will discuss options for future sprints

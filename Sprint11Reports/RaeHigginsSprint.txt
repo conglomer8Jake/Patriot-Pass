@@ -1,0 +1,32 @@
+Name: (name of the bug itself): Settings Buttons do not work at all
+Bug Reporter: (who found the bug): Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: (month, day, year): April, 19, 2022
+Build Version: (Wednesday, Thursday, Friday, Saturday Build): Tuesday
+Reproduction Techniques: (how do you recreate the bug): launch the game, click options
+Observed Behavior: (what happens when the bug takes place): I can't click on any of the buttons, none of them work, can't exit out 
+Expected Behavior: (what’s supposed to happen that doesnt happen): The sliders should work, I should be able to back out
+Priority Level: (high, medium, low): HIGH
+
+Name: (name of the bug itself): Sarah is waaay to fast
+Bug Reporter: (who found the bug): Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: (month, day, year): April, 19, 2022
+Build Version: (Wednesday, Thursday, Friday, Saturday Build): Tuesday
+Reproduction Techniques: (how do you recreate the bug): play, go to level 2, move sarah
+Observed Behavior: (what happens when the bug takes place): she is way faster than the robot and very hard to control
+Expected Behavior: (what’s supposed to happen that doesnt happen): she should be the same speed as the robot or similar, shes way to fast
+Priority Level: (high, medium, low): HIGH
+
+__
+__ 
+
+Name: (name of the bug itself): Title music still playing on level 2 and all the levels
+Bug Reporter: (who found the bug): Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: (month, day, year): April, 19, 2022
+Build Version: (Wednesday, Thursday, Friday, Saturday Build): Tuesday
+Reproduction Techniques: (how do you recreate the bug): play, go to level 2 (or any of the levels)
+Observed Behavior: (what happens when the bug takes place): the title music loops in with the music from the level
+Expected Behavior: (what’s supposed to happen that doesnt happen): the title music should not be playing at all in the levels
+Priority Level: (high, medium, low): HIGH

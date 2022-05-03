@@ -1,0 +1,11 @@
+>Reviewed 410 lines of code from my programmers and created a global variable to track information across scenes
+	-On the playerMovementHandler I reviewed Isaac's work and edited it to flow better within my programming framework as well as optimizing
+	 the way movement is done. Fixed issues with general movement and dashing.
+	-Additionally on the playerMovementHandler I added a tracker when the player entered "puckState" that tracked how long the keys were held
+	 for. This was then translated using trigonometric math into an angle. That angle will then be translated into coordinates on the unit
+	 circle that will serve as a framework for baseline addition of force.
+	-On the puckScript I removed its ability to store score and made pointers to the gameManager where score will be stored
+	-On the diskMovement script I changed the way the disk interacts with the player and enabled it to find the empty gameObject where it
+	 will be held. Fixed an issue where it found the player's transform as opposed to its child's transform.
+>Held meetings with each of my programmers checking in on their progress and making myself available to answer questions and provide assistance
+ with any issues they ran into.

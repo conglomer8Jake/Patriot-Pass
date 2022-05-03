@@ -1,0 +1,3 @@
+Joaquin Alvarez Sprint 7 Report:
+
+- I added Art for the UI and adjusted the size and loctation to match the design and art team specification. 

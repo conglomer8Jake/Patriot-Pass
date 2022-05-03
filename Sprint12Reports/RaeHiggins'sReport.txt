@@ -1,0 +1,32 @@
+Name:  Music doesn't loop on character select screen
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 26, 2022
+Build Version: Tuesday Build ;Version 0.5.5 
+Reproduction Techniques:  Go click play, stay on character select mode for awhile
+Observed Behavior:  If i stay on the character select screen for about a min or two, the music completely stops and goes silent
+Expected Behavior:  The music should loop 
+Priority Level:  medium
+
+Name:  can't select a different character either than sarah first
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 26, 2022
+Build Version: Tuesday Build ;Version 0.5.5 
+Reproduction Techniques:  Go click play, on the character select first thing to do, move arrow keys to select another character
+Observed Behavior:  i can't select a character either than sarah as the first character, i can't click on any of the other characters
+Expected Behavior:  i should be able to choose any character 
+Priority Level:  medium
+
+Name:  sarah's legs are in the ground, SHES A GHOST
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 26, 2022
+Build Version: Tuesday Build ;Version 0.5.5 
+Reproduction Techniques:  Go click play, select sarah, then select robot guy in character selection, go to level 2
+Observed Behavior:  sarah's legs don't touch the ground, her legs are in the ground..
+Expected Behavior: Sarah's legs should touch the ground and not go in the ground.
+Priority Level:  high
+
+
+Found that 2 of the other bugs I found previously were still not fixed: UI off center in options menu, Settings buttons do not work at all.

@@ -1,0 +1,24 @@
+Library/
+Logs/
+*.vsconfig
+*.sln
+*.log
+Assembly-CSharp.csproj
+game410SquadUp/UserSettings/
+UserSettings/EditorUserSettings.asset
+game410SquadUp/.vs/
+game410SquadUp/.vsconfig
+*.dwlt
+game410SquadUp/Assets/Scenes/SampleScene 1.unity
+game410SquadUp/Assets/Scenes/SampleScene 1.unity.meta
+game410SquadUp/Assets/Scenes/SampleScene.unity
+game410SquadUp/Assets/Scenes/SampleScene.unity.meta
+game410SquadUp/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+game410SquadUp/Temp
+game410SquadUp/UserSettings/Layouts
+*.dwlt
+game410SquadUp/UserSettings/Layouts/default-2021.dwlt
+game410SquadUp/UserSettings/EditorUserSettings.asset
+game410SquadUp/ProjectSettings/EditorBuildSettings.asset
+game410SquadUp/UserSettings/EditorUserSettings.asset
+game410SquadUp/UserSettings/EditorUserSettings.asset

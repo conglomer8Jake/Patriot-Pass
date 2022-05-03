@@ -1,0 +1,2 @@
+Worked on finalizing look and feel of UI
+Created mock-ups of main menu and game type select screen

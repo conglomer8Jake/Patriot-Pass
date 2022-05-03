@@ -1,0 +1,43 @@
+[Fixed]- Issue is resolved 
+[Feature]- Issue is kept with some housekeeping to be a feature
+[Removed]- Issue is no longer an issue by proxy
+
+High Priority (Next Office Hours)
+[Fixed!](3/23/2022)-Loki clips through Sarah when trying to Lerp between targets
+[Fixed!](3/22/2022)-Time Distortion ability not working properly, pucks leaving the field would leave at hyper speeds and the incorrect function was called to activate the ability
+[Fixed!](3/22/2022)-sandstorm not decreasing its alpha value (opacity) please help I've tried so many things
+[Fixed!](3/22/2022)-puck retains momentum after colliding with player post starship 3bar Ult
+[Fixed!](3/22/2022)-puvk retains momentum after colliding with starship 2bar ult
+[Fixed!](3/21/2022)-player does not get a knockback from colliding with the starship 3bar ult
+-tie ultBar to the images on the overlay
+-Adapting the game to the larger, more correctly scaled map
+-Second menu does not prompt a decision with keys (levels 1-4)
+-Pause menu not working correctly on testScene2, not able to navigate with keys
+-Debug officers, slerping not the most optimal way to make them track the player, remove collision with Gary as well perhaps
+[Fixed!](3/6/2022)-Multiple jumps breaks the functionality
+[Fixed!](2/28/2022)-.dwlt and User setting annoying AF
+[Fixed!](2/28/2022)-Not able to jump even though canJump is true and movement isn't restricted in Z axis
+[Fixed!](2/28/2022)-Still need to launch disk in the last direction of the starshipUltPrefab movement vector
+[Fixed!](2/28/2022)-SarahLoki extra prefabs instantiating twice when it should only be made once, not sure why. Using a for loop in the start() function to find the
+         right player and create the prefabs in the right spot. Small issues with how the prefabs operate
+		[Fixed!](2/28/2022)-New Bug: Loki teleports to the position as opposed to moving towards it, minor fix I'm sure will handle it
+[Fixed!](2/28/2022)-When trying to throw the puck sometimes it moves a smudge then makes you have to press x again to throw it (testscene03) - high 
+[Feature](2/28/2022)-When player one catches the puck can sometimes still move a tiny bit. (testscene02)
+[Removed](2/28/2022)-When player tries to throw the puck with backward input the player jerks backward (testscene02)
+[Fixed!](3/20/2022)-Pressed C while LEFT player had puck, couldnt control starship drone with WASD, but could be controled with arrow keys mirroring the movements with right player
+(continuation) resulted in left player unable to move or throw
+
+Medium Priority (Within the Week)
+-Dieterich ability not triggering from fieldState
+-Pause menu not working on level 3
+-Enable the pressing and holding of the volume slider to adjust speed as opposed to repeated presses
+-When player tries to drop shot the puck sometimes it just floats horizontally (test scene 03)// -- medium 
+[Fixed!](3/2/2022)-2bar Starship ult not accurately changing direction on Invoke("changeY"). The function is being called but not being reflected on screen(game still functions
+without it working so we can prioritize other bugs)
+	-2bar Starship Ult accurately changes direction but slows down and pushes the player back (though we may want that to persist, possible feature) [?]
+-When coming off the main menu the lighting is super dark there are lots of shadows - same throwing glitches occur as well ever now and then(Test scene 01)
+[Removed](2/28/2022)-When player sometimes tries to throw the puck they just jerk in place (testscene 02)
+
+Low Priority (SoonTM)
+-Players start out at a faster speed than normal, once they change states their speed gets set to a constant value
+-Level 4 button does not work

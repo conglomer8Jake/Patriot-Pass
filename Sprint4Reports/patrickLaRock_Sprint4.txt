@@ -1,0 +1,2 @@
+Didn't get as many props done as I wanted.
+Cone, Crate_small, and Crate_long are all modeled and UV'ed but lack textures.

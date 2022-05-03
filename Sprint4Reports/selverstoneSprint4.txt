@@ -1,0 +1,11 @@
+>Reviewed over 1200 lines of code and created abilities for Sarah & Loki as well as Gary M Unger
+	-Created Sarah & Loki Functionality and began the framework on their abilities
+		-Created a function to find the player with the enumerator "SarahLoki" which spawns a timeDistortion field around her as well as a Loki prefab
+		 This is currently bugged out and the functionality is not tested
+		-Created the abillity for Sarah to spawn a sandstorm on the opposing player to obscure their vision
+	-Created Gary M Unger abilities
+		-Created the ability to spawn Officers to swarm the court and slow down the other player (untested)
+	-Bug tested multiple issues with regards to rigidbody constraints, ability movements, and ults
+>Held meetings with my programmers to check in on progress as well as made myself available to provide assistance and edit code
+	-Edited multiple scripts to streamline code as well as clean up needless pointers
+	-Fixed a merge issue both upstream and downstream

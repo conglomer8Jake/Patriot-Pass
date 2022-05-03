@@ -1,0 +1,1 @@
+The pond level is broken up into three parts, the ice texture goes on the trianglular shaped plane on the left side of the pond layout png. The terrain texture goes on the curved plane that contains the playfield. The water texture goes on the flat plane beneath the terrain plane. 

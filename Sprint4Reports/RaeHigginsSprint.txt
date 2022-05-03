@@ -1,0 +1,3 @@
+I created a wireframe for the main menu since I realized there needs to be an extra screen which is right after choosing ai or local (2 player or 4 player screen).
+I also updated the HUD wireframe in game to have a 2 player version.
+I created new wireframes for the choose your character selection screen for 4 player and 2 player.

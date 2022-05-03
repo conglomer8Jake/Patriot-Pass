@@ -1,0 +1,5 @@
+Joaquin Alvarez Sprint 10:
+
+- Did bug fixes that for the Game Over UI as well as the timer. Made sure that the Game ended correctly and there was no further issues. 
+- Fix the aspect ratio bug as well for the Post-game Freeze bug in scene 2.
+- Added key movement for the End Game Menu. Now users are able to navigate the End game menu through the keys instead of using the mouse for now on.

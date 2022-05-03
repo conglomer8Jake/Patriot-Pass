@@ -1,0 +1,5 @@
+Joaquin Alvarez Sprint 9:
+
+- Fixed some minor bugs that was related to the UI as well as added more Art for the UI and into the Game. 
+- Met with Brian Meadows to discuess changes and such of the art for the UI. 
+- Made sure to have the Art for the UI match the Art and Design team specification. 

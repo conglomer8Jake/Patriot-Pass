@@ -1,0 +1,1 @@
+This week, I tested out the game build some more and found some repeat bugs from previous weeks, and reported this to leads.

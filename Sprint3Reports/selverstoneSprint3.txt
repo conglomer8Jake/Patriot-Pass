@@ -1,0 +1,13 @@
+>Reviewed 900 lines of code from my programmers and created starship character abilities 1-3 
+	-Created starshipUltHandler script to house functionality for teh 3bar Starship ult
+		-Hitting the 3bar ult for the Starship character now creates a prefab whose motion mimics the player that created it, restricting their motion
+		-When the prefab collides with a player it destroys itself and restores movement to the player that created it
+		-Disc *should* follow the prefab; however, it is buggy rn and does not fully work
+		-Added functionality to call the ult from the playerAbilityHandler which reduces the ultBar (not fully hooked up yet, using a placeholder ultBar)
+	-Edited DiskMovement
+		-Changed the changeY() function to simply invert the velocity of Y by *= -1
+		-Added functionality that when the disk is set to diskState and recentlyCarried is true, the disk *should* get a boost in the correct direction (based
+		 off of -offsetX). This function does not fully work; however, and the disk does not get the boost it should. Needs bug testing.
+	-Edited playerMovementHandler
+		-Added framework for a knockback functionality when the player collides with the starshipUlt prefab. Not implemented yet, will do so soon(TM).
+>Held meetings with my programmers checking in on their progress and making myself available to answer questions and provide assistance with any issues they ran into.

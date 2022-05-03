@@ -1,0 +1,3 @@
+I was tasked with getting started with the UI of game. 
+My main task was to create a button that when clicked on would transition to another scene using GUI. 
+I manage to complete the task as well as creating several different buttons that can do some barebones function as well.

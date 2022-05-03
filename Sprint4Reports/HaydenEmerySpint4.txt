@@ -1,0 +1,1 @@
+Completed the special move sound effects for Professor Dietrich and Starship character to the extent that each have thier own audacity project so that they can be edited to fit the animations when they are finished. Those being shown are the base concepts and sounds to be used. Will add VO later. 

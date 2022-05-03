@@ -1,0 +1,4 @@
+Joaquin Alvarez Sprint 11:
+- Added a Credit scene. 
+- Adjust the UI for the End Game Screen.
+- Added a Winner Portrait to the End Game Sceen. 

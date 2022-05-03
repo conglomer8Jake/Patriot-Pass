@@ -1,0 +1,8 @@
+>Reviewed over 1200 lines of code
+		-Created a starshipAnimationHandler script to handle animations for Starship
+		-Added delegates to scripts, enabling the decoupled transfer of information to the script
+			*Added delegates to the playerMovementHandler and playerAbilityHandler that give information to animations
+			*Added delegates to the DiskMovement script to give information to the gameManager
+			*Added delegates to the playerMovementHandler to give information to the UI script
+		-Debugged many issues
+>Held meetings with my programmers and made myself available to give assistance

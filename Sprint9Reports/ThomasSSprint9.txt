@@ -1,0 +1,1 @@
+This week, I was assigned to test for bugs and discovered 6 major bugs and one minor bug.

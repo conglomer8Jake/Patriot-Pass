@@ -1,0 +1,1 @@
+This week, i was tasked with bugtesting the build, and I discovered several bugs by accidentally triggering a mirror match, due to a bug that unintentionally placed me into a mirror match.

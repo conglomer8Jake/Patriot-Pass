@@ -1,0 +1,1 @@
+This week, I went in to test bugs, and found several bugs with the mirror match setup. I also discovered issues with pitching/serving and something i misunderstood to be a bug with the character selection.

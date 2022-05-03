@@ -1,0 +1,1 @@
+I tried to help with debugging the UI, but I was unfortunately having some problems accessing the game itself.

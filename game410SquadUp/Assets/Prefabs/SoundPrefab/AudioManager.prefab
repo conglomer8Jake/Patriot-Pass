@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1176623400880081536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1176623400880081550}
+  - component: {fileID: 1176623400880081551}
+  - component: {fileID: 1578024649436203695}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1176623400880081550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176623400880081536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27689648, y: 1.3570536, z: 5.1438565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1176623400880081551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176623400880081536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 159eb1af7f6038c41a4ef3cda5dcedf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ConstructionIntro
+    clip: {fileID: 8300000, guid: eef70a83ef568684f9742d1b0941a322, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DiskRespawn
+    clip: {fileID: 8300000, guid: 659550d96d6ce114494fc20d884290a5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collision1
+    clip: {fileID: 8300000, guid: a30d44e11e9735a4e829820b9e2401f6, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collision2
+    clip: {fileID: 8300000, guid: 10949b6199f285141862946521c753f8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collision3
+    clip: {fileID: 8300000, guid: db52747bdfede404c9c4a5fa577915b1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Collision4
+    clip: {fileID: 8300000, guid: 63734cc17d508314e862dc009cc6dbeb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw1
+    clip: {fileID: 8300000, guid: 87c3659c86f3df54396f6c90587cbc42, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw2
+    clip: {fileID: 8300000, guid: 5ca5d4601a23d7b48b39df783017a9f7, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw3
+    clip: {fileID: 8300000, guid: cf1486245dc7e18459a004290e23aad5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Throw4
+    clip: {fileID: 8300000, guid: dde3486f0a5d6b045a2dbcf8e97ca4d0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LesserGoalScore
+    clip: {fileID: 8300000, guid: 2eec45bdd0f3b4147b359cfccd373443, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GoalScore
+    clip: {fileID: 8300000, guid: f6d310d43ee988b4ca27f410ea7acbdc, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ConstructionBG1
+    clip: {fileID: 8300000, guid: 1611cee250e77e9498077f017e008988, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ConstructionBG2
+    clip: {fileID: 8300000, guid: 38dead897cb5f7843bfcde2822f9ec1b, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ConstructionBG3
+    clip: {fileID: 8300000, guid: 446b844704bab854b92135975a654acf, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: DieterichUlt
+    clip: {fileID: 8300000, guid: 834cf6d0f354f33468e6eee173cdc7eb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Swipe1
+    clip: {fileID: 8300000, guid: d9a5a26a8ed42f141b249574a341f59b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Swipe2
+    clip: {fileID: 8300000, guid: 2f5cd5ed1b6ffd94d9e3042ae7a42152, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Catch
+    clip: {fileID: 8300000, guid: 2a44637e9e02c9f4aa2ccbb03c34e0cf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuDown
+    clip: {fileID: 8300000, guid: 3a7b89976f813034cba324534898f97a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuUp
+    clip: {fileID: 8300000, guid: 05d151b8fe2d6af4182263bba135c4bd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuBack
+    clip: {fileID: 8300000, guid: 631d9912782ad9145acbbf8773d37b53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuConfirm
+    clip: {fileID: 8300000, guid: bd0da1eafe55dd046b8bdb583000fb79, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuIntro
+    clip: {fileID: 8300000, guid: ec1d8e2f7d1722d489fdaa1bf51abbbd, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MenuLoop
+    clip: {fileID: 8300000, guid: 3fef147fc2fd8ce429b352efbfdbbd6d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: EndMatchIntro
+    clip: {fileID: 8300000, guid: c0017052b89033840a61e073f7b5cda8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EndMatchLoop
+    clip: {fileID: 8300000, guid: 8f96a7714de021947833b10ba2a5f7f2, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ConstructionLoop
+    clip: {fileID: 8300000, guid: 063b1e2cf89b21740b4c06a289f8e722, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SarahUlt1
+    clip: {fileID: 8300000, guid: 3c900233fb7933743b649084daec73c1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SarahUlt2
+    clip: {fileID: 8300000, guid: fd56210b6e5942249b589aa3e7c45131, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SarahUlt3a
+    clip: {fileID: 8300000, guid: 63d686d54c0f80b46a7e081400faad68, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SarahUlt3b
+    clip: {fileID: 8300000, guid: 4cdb0e14f6a6c884f9edc9ab222d5808, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SarahUlt3c
+    clip: {fileID: 8300000, guid: f587e20417e34c945860d0e898c1ea61, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SarahUlt3d
+    clip: {fileID: 8300000, guid: b49711f535c856943a271f1347d43b56, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StarUlt1
+    clip: {fileID: 8300000, guid: 4db4893ae04bffb49b6de280d9b72c2b, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StarUlt2
+    clip: {fileID: 8300000, guid: b8b30175ac4180749bdf8ea124be6146, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: StarUlt3
+    clip: {fileID: 8300000, guid: 3d7735384c0c9ed4f857f30325e9c090, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!82 &1578024649436203695
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176623400880081536}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

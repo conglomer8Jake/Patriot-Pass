@@ -1,0 +1,12 @@
+>Reviewed over 1500 lines of code and created abilities for Gary M Unger as well as bug tested for Sarah and Loki and Starship
+	-Lots of debugging
+		-Starhsip
+			*Fixed an issue where the player did not get passed a knockback force upon collision with the starship 3bar ult
+			*Fixed an issue where the player did not gain access to their starship 3bar ult's movement
+			*Fixed an issue where the starship 3bar ult did not destroy itself on collision with the goals, still needs to be optimized to have the puck instantly score
+			*Fixed starship controls, now matches player's controls 
+		-Fixed an issue with multiple jumps breaking the game, players no longer able to Invoke the jump twice
+		-Many odds and ends regarding the game got debugged and optimized
+		-Optimized starship 2bar ult to create mirages
+			*Removed collision between the mirages and the puck itself, mirages now destroy themselves on contact with the player
+Held meeting with my programmers to discuss code and offer assistance

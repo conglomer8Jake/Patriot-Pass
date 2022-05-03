@@ -1,0 +1,23 @@
+I was assigned QA testing on thursday.
+
+I found 2 bugs.
+
+Name: Score through Mason box
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 7, 2022
+Build Version: Thursday Build Version 0.1.2
+Reproduction Techniques: Get the disk to the bottom right or throw it there. Catch the disk on the very edge of the mason block and catch it to throw it towards the goal.
+Observed Behavior: If starship gets the disk in the very far bottom right right next to the Mason blocks and throws the disk, then it score a goal even though he never goes through to the goal. I assume the collisions there aren’t working properly.
+Expected Behavior: It should bounce back and not be considered a goal.
+Priority Level: medium (it hard to recreate to be fair)
+
+Name: Timer runs out freezes everything (no way to exit or rematch)
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 7, 2022
+Build Version: Thursday Build Version 0.1.2
+Reproduction Techniques: Wait till the timer runs out.
+Observed Behavior: When the timer runs out, all the players are frozen in place. The music is still going. There is not option to exit the game or rematch.
+Expected Behavior: There should be a rematch option or an exit out option.
+Priority Level: High

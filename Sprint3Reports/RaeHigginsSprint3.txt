@@ -1,0 +1,1 @@
+Worked on the wireframes for in game structure of where player icons, names, and stamina will be. I put in where the timer and scoring will be.

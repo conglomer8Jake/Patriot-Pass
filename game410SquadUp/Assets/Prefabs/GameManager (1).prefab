@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4678715189477998291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4678715189477998289}
+  - component: {fileID: 4678715189477998290}
+  m_Layer: 0
+  m_Name: GameManager (1)
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4678715189477998289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678715189477998291}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27689648, y: 1.3570536, z: 5.1438565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4678715189477998290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678715189477998291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61dde026cc7add488dd39eb2385e5c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combo: 0
+  leftScore: 0
+  rightScore: 0
+  finalScoreText: {fileID: 0}
+  sratshipPrefab: {fileID: 0}
+  sarahPrefab: {fileID: 0}
+  dieterichPrefab: {fileID: 0}
+  garyPrefab: {fileID: 0}
+  players: []
+  teamOne: []
+  teamTwo: []
+  timeText: {fileID: 0}
+  timeRemaining: 500
+  timerIsRunning: 0
+  introTimer: 10.9
+  timerBool: 0
+  timerIntroBool: 0
+  scoreBool: 0
+  scoreIntroBool: 0
+  endMenu: {fileID: 0}
+  team1Win: {fileID: 0}
+  team2Win: {fileID: 0}
+  tieMenu: {fileID: 0}
+  player1Sprite: {fileID: 0}
+  player2Sprite: {fileID: 0}
+  player1Name: {fileID: 0}
+  player2Name: {fileID: 0}
+  sarahSprite: {fileID: 21300000, guid: b7c3d6da74970c447a1fab0786057139, type: 3}
+  starshipSprite: {fileID: 21300000, guid: 7dbbd247946c009489071ace29ed0a1e, type: 3}
+  garySprite: {fileID: 21300000, guid: a0a9b56d78624d145a48640eb7d6bc01, type: 3}
+  dietrichSprite: {fileID: 21300000, guid: efa9ba6fd5485054a8650d6587255e44, type: 3}
+  sarahName: Sarah
+  starshipName: Starship
+  garyName: Gary
+  dietrichName: Dietrich

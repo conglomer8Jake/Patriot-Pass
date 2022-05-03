@@ -1,0 +1,11 @@
+Juicers
+1.    Add a delay to when the UI pops up in the menus.
+2.    Add a shake effect to the screen when a player scores
+3.    Add a particle effect near the score UI whenever someone scores
+4.    Scale the frisbee once there is about a 10 hit combo, to make it smaller or even bigger to balance the game to make it so it won’t go on forever.
+5.    Add a particle effect once there is about a 10 hit combo to the frisbee, like a fire effect if he goes fast
+6.    Rotate the frisbee if hit a certain way, maybe some certain key combo, to throw off the opponent
+7.    Stretch the frisbee if hit a certain way, a different key combo, to also throw off the opponent
+8.    Change the color of the frisbee after a 10 hit combo to a different color, and if there is a 20 hit combo change it to a really bright color
+9.    Change the color of the UI once it’s selected
+10.    Change the size of the score UI for a  second once a player score, to really grab the attention to the players.

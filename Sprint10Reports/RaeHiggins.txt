@@ -1,0 +1,22 @@
+Found two bugs
+
+Name: Score is not working at certain angle in construction site
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 12, 2022
+Build Version: Tuesday Build ;Version 0.2.1
+Reproduction Techniques: Catch the disk as the starship robot, and angle it to hit at the bottom left of Sarah's goal in the construction site and score. 
+Observed Behavior: The disk hits the bottom left goal on sarah's side and it doesn't update a score for the starship's score UI.
+Expected Behavior: It should add 10 points to the starship's score.
+Priority Level: HIGH (edited)
+
+Name: UI off center in options menu, and sliders/buttons do not work
+Bug Reporter: Rae Higgins
+Assignee: (who is fixing the bug, Jacob or I will be assigning this)
+Date of Discovery: April 12, 2022
+Build Version: Tuesday Build ;Version 0.2.1 
+Reproduction Techniques: In title screen, click on options
+Observed Behavior: The UI is very off center and the sliders do not slide or work at all. The buttons do not work either, I cant even go back to the title screen.
+Expected Behavior: The UI should be more in the center. The slider should move at least. The back bottom should take me back to the title screen.
+Priority Level: High
+

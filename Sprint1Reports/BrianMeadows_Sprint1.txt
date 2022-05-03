@@ -1,0 +1,6 @@
+- Created image board with figma to collect interesting UI and HUD designs (Can be found in drive and Jira atm)
+- Created rough wireframe of game screens and menus in figma
+- Drafted background and button designs
+
+Link to Figma Project:
+https://www.figma.com/file/dxOxFhs3MWKEhF5fhqxJwP/Untitled?node-id=0%3A1
